@@ -1,0 +1,26 @@
+branch,service_type,mean,sum
+Central,Automatic Gate Repair,7.850986121256391,10748
+Central,Garage Door Opener,6.173119065010957,8451
+Central,Garage Door Repair,14.918188458728999,20423
+Central,Maintenance,3.6464572680788896,4992
+Central,New Installation,4.127100073046019,5650
+East,Automatic Gate Repair,5.870708546384222,8037
+East,Garage Door Opener,4.447041636230826,6088
+East,Garage Door Repair,10.821767713659606,14815
+East,Maintenance,2.762600438276114,3782
+East,New Installation,3.118334550766983,4269
+North,Automatic Gate Repair,6.243243243243243,8547
+North,Garage Door Opener,4.674214755295837,6399
+North,Garage Door Repair,11.280496712929146,15443
+North,Maintenance,2.810080350620891,3847
+North,New Installation,3.1840759678597514,4359
+South,Automatic Gate Repair,5.447041636230826,7457
+South,Garage Door Opener,4.129291453615778,5653
+South,Garage Door Repair,9.952520087655223,13625
+South,Maintenance,2.5178962746530313,3447
+South,New Installation,2.723155588020453,3728
+West,Automatic Gate Repair,5.174579985390796,7084
+West,Garage Door Opener,3.989773557341125,5462
+West,Garage Door Repair,9.571950328707086,13104
+West,Maintenance,2.4010226442658875,3287
+West,New Installation,2.6654492330168007,3649

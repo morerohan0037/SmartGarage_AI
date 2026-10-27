@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "rows": 18000,
+  "delay_rate": 0.4236111111111111,
+  "best_waiting_time_model": "XGBoost",
+  "best_waiting_time_metrics": {
+    "mae": 14.473912795384726,
+    "rmse": 18.201469562044455,
+    "r2": 0.9736196821998995
+  },
+  "best_delay_classifier": "XGBoost",
+  "best_delay_metrics": {
+    "accuracy": 0.9375,
+    "precision": 0.9193548387096774,
+    "recall": 0.9344262295081968,
+    "f1": 0.926829268292683,
+    "roc_auc": 0.9877100533280664,
+    "threshold": 0.41999999999999993
+  }
+}

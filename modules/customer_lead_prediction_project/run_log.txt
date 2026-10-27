@@ -1,0 +1,48 @@
+Training Logistic Regression
+Training Decision Tree
+Training Random Forest
+Training Hist Gradient Boosting
+Training Neural Network
+Training XGBoost
+
+MODEL RESULTS
+                  Model  Threshold  Accuracy  Precision   Recall       F1  ROC_AUC   PR_AUC    Brier
+   Logistic Regression      0.225  0.628750   0.304315 0.617825 0.407777 0.670826 0.342511 0.154491
+               XGBoost      0.225  0.620938   0.296679 0.607251 0.398612 0.657828 0.327544 0.155899
+         Random Forest      0.250  0.675625   0.311623 0.469789 0.374699 0.645312 0.319521 0.157064
+Hist Gradient Boosting      0.225  0.614688   0.287416 0.583082 0.385037 0.647380 0.314629 0.157055
+         Decision Tree      0.200  0.496250   0.244073 0.684290 0.359809 0.588325 0.263268 0.168048
+        Neural Network      0.200  0.482812   0.238271 0.682779 0.353263 0.573626 0.250205 0.163444
+
+Summary: {
+  "seed": 42,
+  "rows": 16000,
+  "train_rows": 10400,
+  "validation_rows": 2400,
+  "test_rows": 3200,
+  "conversion_rate": 0.2186875,
+  "best_model_by_pr_auc": "Logistic Regression",
+  "threshold_selected_on_validation": 0.225,
+  "test_metrics": {
+    "Accuracy": 0.62875,
+    "Precision": 0.30431547619047616,
+    "Recall": 0.6178247734138973,
+    "F1": 0.4077766699900299,
+    "ROC_AUC": 0.6708263994533842,
+    "PR_AUC": 0.3425105248476893,
+    "Brier": 0.15449067153815607
+  },
+  "top_20pct_conversion_rate": 0.3578125,
+  "overall_test_conversion_rate": 0.206875,
+  "top_20pct_lift": 1.7296072507552869,
+  "note": "Metrics are on synthetic data; targeting margin/cost assumptions are illustrative."
+}
+
+NEW LEAD DEMO
+ lead_id       service_type    lead_source  conversion_probability  predicted_conversion
+L003396    New Garage Door Organic Search                  0.2742                     1
+L005512 Opener Replacement    Paid Search                  0.0895                     0
+L007112 Opener Replacement Organic Search                  0.2967                     1
+L004976             Repair       Referral                  0.3529                     1
+
+Success: generated data, trained models, plots, predictions and outputs.

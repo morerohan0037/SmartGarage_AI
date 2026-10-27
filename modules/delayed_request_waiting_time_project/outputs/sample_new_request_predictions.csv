@@ -1,0 +1,5 @@
+sample_request,branch,service_type,problem_type,urgency,traffic_level,weather,created_hour,day_of_week,month,distance_km,technicians_on_shift,open_jobs_at_request,emergency_jobs_open,estimated_job_duration_min,parts_stock_ratio,dispatcher_experience_years,customer_time_window_flexibility_min,previous_customer_cancellations,jobs_per_technician,emergency_load_ratio,is_weekend,is_peak_hour,sla_wait_limit_min,predicted_waiting_time_min,predicted_delay_probability,predicted_delayed,predicted_delay_minutes
+Emergency Spring,Central,Garage Door Repair,Broken Spring,Emergency,High,Rain,17,1,10,18.0,7,24,5,95,0.65,2.0,0,0,3.429,0.714,0,1,60,299.4,0.9996,1,239.4
+Routine Maintenance,North,Maintenance,Routine Maintenance,Low,Low,Clear,11,2,5,5.0,12,8,1,45,0.95,8.0,120,0,0.667,0.083,0,0,240,61.0,0.0005,0,0.0
+Storm Gate Failure,East,Automatic Gate Repair,Gate Motor Failure,High,Severe,Storm,18,5,12,26.0,5,27,6,135,0.52,1.0,30,1,5.4,1.2,1,1,120,495.8,0.9999,1,375.8
+Keypad Issue,South,Garage Door Opener,Remote/Keypad Issue,Normal,Medium,Clear,13,3,7,7.5,10,11,2,35,0.9,5.0,60,0,1.1,0.2,0,0,180,84.9,0.0015,0,0.0

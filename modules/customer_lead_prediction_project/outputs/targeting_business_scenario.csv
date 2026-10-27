@@ -1,0 +1,3 @@
+Strategy,Leads Contacted,Expected Campaign Net Contribution USD,Observed Conversion Rate
+Contact all leads,3200,41920,0.206875
+Contact top 20% by ML score,640,23840,0.3578125

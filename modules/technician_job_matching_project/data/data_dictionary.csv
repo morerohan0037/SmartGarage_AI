@@ -1,0 +1,25 @@
+column,description
+job_id,Unique service job ID
+technician_id,Candidate technician ID
+service_type,Garage/gate service category
+problem_type,Specific service problem
+urgency,"Low, Normal, High, Emergency"
+required_skill,Required skill level 1-5
+required_part,Likely needed part
+experience_years,Technician experience
+relevant_skill,Technician skill relevant to job 1-5
+historical_first_fix_rate,Technician historical one-visit success rate
+callback_rate,Technician historical repeat-visit rate
+current_workload_ratio,Current workload 0-1
+available_in_minutes,Minutes until available
+distance_km,Technician-to-job distance
+travel_time_minutes,Estimated travel time
+inventory_match,1 if required part is carried
+same_branch,1 if same branch
+skill_gap,Relevant skill minus required skill
+skill_match_ratio,Relevant skill / required skill
+true_suitability_score,Synthetic target 0-100
+sim_first_time_fix,Simulated first-time-fix outcome
+sim_sla_met,Simulated SLA outcome
+sim_response_time_minutes,Availability + travel
+sim_customer_satisfaction,Simulated satisfaction 1-5

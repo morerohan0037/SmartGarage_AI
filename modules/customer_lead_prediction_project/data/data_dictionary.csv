@@ -1,0 +1,29 @@
+Column,Meaning
+lead_id,Anonymous synthetic lead identifier
+created_date,Synthetic lead creation date
+converted,"Target: 1 purchased, 0 did not"
+lead_source,Lead acquisition channel
+service_type,Garage/gate service inquiry
+response_time_minutes,Time taken to respond to lead
+quote_amount_usd,Quote known at prediction time
+budget_usd,Stated customer budget
+appointment_slots_next_3days,Available appointment slots
+prior_customer,Previously served customer flag
+price_to_budget_ratio,Quote divided by stated budget
+branch,Pre-conversion synthetic lead feature
+property_type,Pre-conversion synthetic lead feature
+customer_type,Pre-conversion synthetic lead feature
+urgency,Pre-conversion synthetic lead feature
+contact_channel,Pre-conversion synthetic lead feature
+quote_requested,Pre-conversion synthetic lead feature
+door_age_years,Pre-conversion synthetic lead feature
+previous_repairs,Pre-conversion synthetic lead feature
+distance_km,Pre-conversion synthetic lead feature
+competitor_quotes,Pre-conversion synthetic lead feature
+warranty_interest,Pre-conversion synthetic lead feature
+financing_interest,Pre-conversion synthetic lead feature
+sales_rep_experience_years,Pre-conversion synthetic lead feature
+month,Pre-conversion synthetic lead feature
+day_of_week,Pre-conversion synthetic lead feature
+is_weekend,Pre-conversion synthetic lead feature
+available_slot_indicator,Pre-conversion synthetic lead feature

@@ -1,0 +1,24 @@
+column,description
+request_id,Unique service request
+branch,Service branch handling the request
+service_type,Type of garage/gate service
+problem_type,Specific reported issue
+urgency,"Low, Normal, High, Emergency"
+traffic_level,Traffic severity
+weather,Weather conditions
+created_hour,Hour request was created
+day_of_week,0=Monday through 6=Sunday
+distance_km,Distance from service resources to customer
+technicians_on_shift,Technicians currently working
+open_jobs_at_request,Open jobs when request arrives
+emergency_jobs_open,Emergency jobs already open
+estimated_job_duration_min,Expected service duration
+parts_stock_ratio,Share of common needed parts currently available
+dispatcher_experience_years,Dispatcher experience
+customer_time_window_flexibility_min,Customer scheduling flexibility
+jobs_per_technician,Queue pressure feature
+emergency_load_ratio,Emergency workload per technician
+actual_waiting_time_min,Synthetic regression target
+sla_wait_limit_min,Maximum desired wait based on urgency
+delay_minutes,Minutes beyond SLA
+is_delayed,Binary delay target

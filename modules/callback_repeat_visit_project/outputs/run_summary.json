@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "rows": 20000,
+  "callback_rate": 0.15445,
+  "train_rows": 14000,
+  "validation_rows": 3000,
+  "test_rows": 3000,
+  "best_f1_model": "Logistic Regression",
+  "best_roc_auc_model": "Logistic Regression",
+  "deployment_model": "Logistic Regression",
+  "deployment_threshold_from_validation": 0.6199999999999998,
+  "deployment_test_metrics": {
+    "Model": "Logistic Regression",
+    "Threshold": 0.6199999999999998,
+    "Accuracy": 0.825,
+    "Precision": 0.45454545454545453,
+    "Recall": 0.6695464362850972,
+    "F1": 0.5414847161572053,
+    "ROC_AUC": 0.8522846749319574,
+    "PR_AUC": 0.5840748347750453,
+    "TN": 2165,
+    "FP": 372,
+    "FN": 153,
+    "TP": 310
+  }
+}

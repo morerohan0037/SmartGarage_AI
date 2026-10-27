@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "best_model": "Neural Network",
+  "best_model_metrics": {
+    "mae": 4.283968120125291,
+    "rmse": 5.402062203200542,
+    "r2": 0.9751318909221997
+  },
+  "top1_oracle_match": 0.724,
+  "top3_oracle_capture": 0.978
+}

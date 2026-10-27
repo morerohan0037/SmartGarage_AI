@@ -1,0 +1,5 @@
+lead_id,created_date,branch,service_type,lead_source,property_type,customer_type,urgency,contact_channel,quote_requested,door_age_years,previous_repairs,prior_customer,response_time_minutes,quote_amount_usd,budget_usd,distance_km,competitor_quotes,warranty_interest,financing_interest,appointment_slots_next_3days,sales_rep_experience_years,month,day_of_week,is_weekend,price_to_budget_ratio,available_slot_indicator,conversion_probability,predicted_conversion
+L003396,2026-03-06,Central,New Garage Door,Organic Search,Single Family,Residential,Emergency,Phone,0,10.5,2,0,37.1,2371.95,2188.32,9.2,0,1,0,1,0.6,3,4,0,1.084,1,0.2742,1
+L005512,2026-03-08,South,Opener Replacement,Paid Search,Single Family,Residential,Normal,Web Form,1,2.8,0,0,121.8,590.87,495.3,6.7,2,0,0,6,2.1,3,6,1,1.193,1,0.0895,0
+L007112,2026-03-10,South,Opener Replacement,Organic Search,Townhouse,Residential,Normal,Web Form,1,5.9,1,1,146.4,468.45,781.59,10.0,1,1,0,3,5.5,3,1,0,0.599,1,0.2967,1
+L004976,2026-03-13,Central,Repair,Referral,Single Family,Residential,Normal,Web Form,1,3.5,0,1,173.7,258.1,455.51,13.8,0,1,0,5,4.9,3,4,0,0.567,1,0.3529,1

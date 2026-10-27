@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "best_model": "Ridge",
+  "best_metrics": {
+    "MAE": 11.241511653982139,
+    "RMSE": 14.292530516369542,
+    "MAPE": 7.116556513927182,
+    "R2": 0.7995667536663149
+  },
+  "baseline_metrics": {
+    "MAE": 17.358333333333334,
+    "RMSE": 21.847387334263413,
+    "MAPE": 11.020922407681235,
+    "R2": 0.531671571576421
+  },
+  "note": "Test results are one-step-ahead predictions with actual lagged demand; 90-day future forecasts are recursive."
+}

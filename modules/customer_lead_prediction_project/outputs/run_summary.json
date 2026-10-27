@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "rows": 16000,
+  "train_rows": 10400,
+  "validation_rows": 2400,
+  "test_rows": 3200,
+  "conversion_rate": 0.2186875,
+  "best_model_by_pr_auc": "Logistic Regression",
+  "threshold_selected_on_validation": 0.225,
+  "test_metrics": {
+    "Accuracy": 0.62875,
+    "Precision": 0.30431547619047616,
+    "Recall": 0.6178247734138973,
+    "F1": 0.4077766699900299,
+    "ROC_AUC": 0.6708263994533842,
+    "PR_AUC": 0.3425105248476893,
+    "Brier": 0.15449067153815607
+  },
+  "top_20pct_conversion_rate": 0.3578125,
+  "overall_test_conversion_rate": 0.206875,
+  "top_20pct_lift": 1.7296072507552869,
+  "note": "Metrics are on synthetic data; targeting margin/cost assumptions are illustrative."
+}

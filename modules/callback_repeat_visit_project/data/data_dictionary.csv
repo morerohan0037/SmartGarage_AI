@@ -1,0 +1,25 @@
+column,meaning,role
+job_id,Unique synthetic service-job ID,Identifier
+branch_id,Synthetic branch ID,Input
+service_type,High-level service category,Input
+problem_type,Reported/diagnosed issue type,Input
+door_gate_type,Garage door or gate configuration,Input
+door_gate_age_years,Equipment age in years,Input
+previous_repairs,Number of previous repairs,Input
+prior_callbacks,Previous repeat visits for this equipment/customer,Input
+technician_experience_years,Assigned technician experience,Input
+technician_skill_level,Technician skill level 1-5,Input
+required_skill_level,Estimated skill requirement 1-5,Input
+distance_km,Technician travel distance,Input
+traffic_level,Expected travel traffic,Input
+urgency,Service urgency,Input
+parts_availability,Required-parts readiness: Unavailable/Partial/Full,Input
+remote_diagnosis_quality,Pre-dispatch diagnosis quality 1-5,Input
+customer_described_symptoms,Whether customer supplied useful symptom details,Input
+first_appointment_of_day,Whether job is tech first appointment,Input
+weekend,Weekend service flag,Input
+time_slot,Scheduled service period,Input
+job_complexity,Estimated complexity 1-5,Input
+actual_duration_min,Observed post-job duration; excluded to prevent leakage,Post-outcome
+service_cost_usd,Observed post-job service charge; excluded to prevent leakage,Post-outcome
+callback_repeat_visit,"Target: 1 repeat visit, 0 first-time fix",Target

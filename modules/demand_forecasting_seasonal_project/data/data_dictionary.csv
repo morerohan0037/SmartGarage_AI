@@ -1,0 +1,5 @@
+column,description
+date,Calendar date
+branch,Business branch
+service_type,Garage/gate service category
+demand,Number of service requests for branch/service/day

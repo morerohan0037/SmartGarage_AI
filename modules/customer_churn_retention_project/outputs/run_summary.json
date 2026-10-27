@@ -1,0 +1,21 @@
+{
+  "dataset_rows": 10000,
+  "dataset_columns": 32,
+  "churn_rate": 0.1021,
+  "split": {
+    "train": 6000,
+    "validation": 2000,
+    "test": 2000
+  },
+  "best_by_validation_pr_auc": "Gradient Boosting",
+  "test_metrics": {
+    "Accuracy": 0.798,
+    "Precision": 0.2767857142857143,
+    "Recall": 0.6078431372549019,
+    "F1": 0.3803680981595092,
+    "ROC_AUC": 0.8162324228132233,
+    "PR_AUC": 0.3372387914479295
+  },
+  "selected_threshold": 0.175,
+  "note": "Data supplied by user; not verified real company records. Observational predictive evaluation only."
+}

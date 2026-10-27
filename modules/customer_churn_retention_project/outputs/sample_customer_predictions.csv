@@ -1,0 +1,6 @@
+case_id,customer_segment,tenure_months,signup_channel,contract_type,monthly_logins,weekly_active_days,avg_session_time,features_used,usage_growth_rate,last_login_days_ago,monthly_fee,total_revenue,payment_method,payment_failures,discount_applied,price_increase_last_3m,support_tickets,avg_resolution_time,complaint_type,csat_score,escalations,email_open_rate,marketing_click_rate,nps_score,survey_response,referral_count,predicted_churn_probability,predicted_churn
+DEMO_1,Individual,39,Web,Monthly,14,6,12.268479574192895,5,0.0,5,50,1950,Card,0,No,No,1,34.219985782868015,,1.0,0,0.13,0.37,7,Unsatisfied,0,0.2035549894811404,1
+DEMO_2,Individual,53,Web,Quarterly,13,5,14.207231631885533,11,-0.11,13,50,2650,Bank Transfer,0,No,No,1,23.123682069371355,Billing,4.0,1,0.86,0.15,77,Satisfied,1,0.035325775045779974,0
+DEMO_3,Enterprise,58,Web,Monthly,32,5,9.013278908043414,6,-0.0,9,50,2900,Card,3,No,No,1,28.056226668831748,Billing,3.0,0,0.19,0.23,11,Satisfied,2,0.13588704471171184,0
+DEMO_4,Individual,29,Web,Yearly,19,3,10.157538913733063,4,0.14,1,10,290,Card,0,Yes,No,2,33.972174499053786,Technical,3.0,0,0.87,0.49,19,Unsatisfied,1,0.0412963481751704,0
+DEMO_5,SME,8,Web,Monthly,18,4,11.788403603085056,1,0.1,5,70,560,PayPal,2,No,No,2,21.493566290430213,Technical,2.0,1,0.75,0.24,70,Satisfied,1,0.4017770938721712,1
